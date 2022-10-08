@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/javahometech/my-app'
+     git 'https://https://github.com/laban2000/my-app.git/my-app'
    }
    stage('Compile-Package'){
       // Get maven home path
@@ -10,7 +10,7 @@ node{
    stage('Deploy to Tomcat'){
       
       sshagent(['tomcat-dev']) {
-         sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@52.66.116.38:/opt/tomcat8/webapps/'
+         sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@http://15.206.122.123/:/opt/tomcat8/webapps/'
       }
    }
    stage('Email Notification'){
