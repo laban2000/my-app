@@ -9,7 +9,7 @@
 	
 	
 
-	<url>http://http://http://43.205.217.148/:8080/</url>
+	<url>http://http://http://http://15.206.122.123//:8080/</url>
 	
 
 	<dependencies>
@@ -36,12 +36,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://http://http://43.205.217.148/:8080//repository/maven-snapshots/</url>
+		    <url>http://http://http://http://15.206.122.123//:8080//repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://http://http://43.205.217.148/:8080//repository/maven-releases/</url>
+		    <url>http://http://http://http://15.206.122.123//:8080//repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
 	
